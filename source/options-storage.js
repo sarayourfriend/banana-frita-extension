@@ -2,9 +2,7 @@ import OptionsSync from 'webext-options-sync';
 
 export default new OptionsSync({
 	defaults: {
-		colorRed: 244,
-		colorGreen: 67,
-		colorBlue: 54
+		api: 'http://localhost:3000',
 	},
 	migrations: [
 		OptionsSync.migrations.removeUnused
